@@ -22,8 +22,8 @@ namespace AplikasiCalculator
             cbOperasi.Items.Add("Pengurangan");
             cbOperasi.Items.Add("Perkalian");
             cbOperasi.Items.Add("Pembagian");
+            cbOperasi.SelectedIndex = 0;
             cbOperasi.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbOperasi.Text = "Penjumlahan";
         }
 
         private void BtnProses_Click(object sender, EventArgs e)

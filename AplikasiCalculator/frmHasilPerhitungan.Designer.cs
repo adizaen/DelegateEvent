@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnHitung = new System.Windows.Forms.Button();
             this.lstHasil = new System.Windows.Forms.ListBox();
+            this.btnHitung = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,17 +46,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[ Hasil ]";
             // 
-            // btnHitung
-            // 
-            this.btnHitung.Location = new System.Drawing.Point(16, 331);
-            this.btnHitung.Margin = new System.Windows.Forms.Padding(4);
-            this.btnHitung.Name = "btnHitung";
-            this.btnHitung.Size = new System.Drawing.Size(358, 37);
-            this.btnHitung.TabIndex = 1;
-            this.btnHitung.Text = "Hitung";
-            this.btnHitung.UseVisualStyleBackColor = true;
-            this.btnHitung.Click += new System.EventHandler(this.BtnHitung_Click);
-            // 
             // lstHasil
             // 
             this.lstHasil.FormattingEnabled = true;
@@ -65,6 +54,18 @@
             this.lstHasil.Name = "lstHasil";
             this.lstHasil.Size = new System.Drawing.Size(344, 260);
             this.lstHasil.TabIndex = 0;
+            // 
+            // btnHitung
+            // 
+            this.btnHitung.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHitung.Location = new System.Drawing.Point(16, 331);
+            this.btnHitung.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHitung.Name = "btnHitung";
+            this.btnHitung.Size = new System.Drawing.Size(358, 37);
+            this.btnHitung.TabIndex = 1;
+            this.btnHitung.Text = "Hitung";
+            this.btnHitung.UseVisualStyleBackColor = true;
+            this.btnHitung.Click += new System.EventHandler(this.BtnHitung_Click);
             // 
             // frmHasilPerhitungan
             // 

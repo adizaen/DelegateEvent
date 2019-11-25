@@ -88,6 +88,7 @@
             // 
             // btnProses
             // 
+            this.btnProses.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProses.Location = new System.Drawing.Point(169, 123);
             this.btnProses.Name = "btnProses";
             this.btnProses.Size = new System.Drawing.Size(99, 28);
@@ -109,7 +110,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmCalculator";

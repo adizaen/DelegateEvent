@@ -22,7 +22,7 @@ namespace AplikasiCalculator
 
             if(index == 0)
             {
-                lstHasil.Items.Add(string.Format("Hasil penambahan  : {0} + {1} = {2}", a, b, hitung.Penjumlahan(a, b)));
+                lstHasil.Items.Add(string.Format("Hasil penjumlahan : {0} + {1} = {2}", a, b, hitung.Penjumlahan(a, b)));
             }
             else if(index == 1)
             {
@@ -30,11 +30,11 @@ namespace AplikasiCalculator
             }
             else if (index == 2)
             {
-                lstHasil.Items.Add(string.Format("Hasil perkalian   : {0} * {1} = {2}", a, b, hitung.Perkalian(a, b)));
+                lstHasil.Items.Add(string.Format("Hasil perkalian : {0} * {1} = {2}", a, b, hitung.Perkalian(a, b)));
             }
             else
             {
-                lstHasil.Items.Add(string.Format("Hasil pembagian   : {0} / {1} = {2}", a, b, hitung.Pembagian(a, b)));
+                lstHasil.Items.Add(string.Format("Hasil pembagian : {0} / {1} = {2}", a, b, hitung.Pembagian(a, b)));
             }  
         }
 
